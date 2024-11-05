@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h1><b>Events In Javascript</b></h1>
+        
+        <button id="click">Click Here</button>
+        <p id="clickMessage"></p>
+        
+        <label for="name" id="nameLabel">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        
+        <label for="color" id="colorLabel">Select a color:</label>
+        <input type="color" id="color" name="color"><br><br>
+        
+        <label for="textbox" id="textboxLabel">Type something:</label>
+        <textarea id="textbox" name="textbox" rows="4" cols="50"></textarea><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+
+    <script>
+      let button=document.createElement('button');
+      button.textContent="Click me";
+      button.id='btn'
+      document.body.appendChild(button);
+
+      let para=document.createElement('p');
+      para.textContent="-------Insert here0-------";
+      para.id="id"
+      document.body.appendChild(para)
+
+      document.getElementById("btn").onclick=function(){
+        
+      }
+    </script>
+</body>
+</html>
