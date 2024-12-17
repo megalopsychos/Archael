@@ -1,7 +1,0 @@
-.parent-cont {
-  background-color: aqua;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  justify-content: center;
-}
